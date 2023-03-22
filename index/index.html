@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TrafficSign</title>   
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <audio id="audio">
+      <source src="horn.mp3" type="audio/mpeg">
+   </audio>
+   <script src="script.js"></script>
+
+   <div class="maincont">
+      <div class="left">
+         <div class="leftcontent">
+            <div class="container" id="speedsign">
+               <a class="default-size speed" id="speed">50</a>
+            </div>
+            <div class="container" id="signsign">
+               <a class="default-size forbidden" id="sign"></a>
+            </div>
+         </div>
+      </div>
+      <div class="middle">
+         <div class="currentSpeed" id="currentSpeed">
+            <a id="curspeed" class="curspeed">speed</a><br/>
+            <a class="unit">km/h</a>
+         </div>
+      </div>
+      <div class="right" id="trafficlight">
+         <div class="trafficlight">
+            <div id="red" class="light"></div>
+            <div id="yellow" class="light"></div>
+            <div id="green" class="light"></div>
+         </div>
+      </div>
+   </div>
+   <button onclick="btn_rotate()" class="btnrotate" id="btn">Rotate</button>
+</body>
+</html>
