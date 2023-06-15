@@ -1,0 +1,122 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-color: #F2F2F2;
+}
+
+.seperator{
+   height: 1px;
+   width: 100%;
+   text-align: center;
+   background-color: #DDDDDD;
+   margin: 0 0px 16px 0px;
+}
+
+button{
+   padding: 4px 8px;
+}
+
+.images{
+   width: 100%;
+   max-width: 100%;
+   padding: 16px;
+}
+
+.singleimage{
+   max-width: 40%;
+   max-height: 300px;
+   border-radius: 16px;
+}
+
+#answer{
+   font-size: 2.5em;
+   font-weight: bold;
+}
+
+.acryl{
+   padding-top: 2px;
+   position: absolute;
+   background-color: #FFFFFF;
+   width: 50%;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   height: 75%;
+   border-radius: 16px;
+   box-shadow: #00000025 5px 5px 10px;
+}
+
+.valuesdiv{
+   margin-top: 16px;
+}
+
+h1{
+   padding: 16px;
+}
+
+button{
+   padding: 8px;
+   background-color: #F5F5F5;
+   border-radius: 8px;
+   width: 150px;
+   cursor: pointer;
+   border-color: #AAAAAA;
+}
+
+button:hover{
+   transform: scale(1.05);
+   background-color: #F5FAF5;
+   border-color: #339933;
+}
+
+#download{
+   cursor: pointer;
+   position: absolute;
+   height: 24px;
+   line-height: 24px;
+   bottom: 0;
+   left: 0;
+   padding: 8px 16px;
+   border-radius: 16px;
+   background-color: #F5F5F5;
+}
+
+#download:hover{
+   background-color: #BBFFBB;
+}
+
+.center{
+   height: 100%;
+   width: 100%;
+   border-radius: 16px;
+   margin-top: 1px;
+   background-color: #FAFAFA;
+}
+
+#info{
+   cursor: pointer;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 8px;
+   border-radius: 16px;
+   height: 24px;
+   width: 24px;
+   background-color: #F5F5F5; 
+   margin: 16px;
+}
+
+@media only screen and (max-width: 600px){
+   .acryl{
+      overflow: hidden;
+      margin: auto 0;
+      width: 95%;
+      height: 95%;
+      box-shadow: #00000055 2.5px 2.5px 25px;
+   }
+}

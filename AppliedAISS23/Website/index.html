@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="styles.css"/>
+   <title>Applied AI</title>
+</head>
+<body id="body">
+   <div class="acryl">
+      <div class="center">
+         <h1>Traffic sign ai</h1>
+         <div class="seperator"></div>
+         <div>
+            <a>Upload your image</a>
+         </div>
+         <div>
+            <form id="form" onsubmit="return false">
+               <input id="file" type="file" onchange="show_upload_img()"/>
+            </form>
+         </div>
+         <div class="images">
+            <img id="img" class="singleimage"/>
+         </div>
+         <button onclick="clear_values()">Clear</button>
+         <button onclick="uploadImage()">Upload</button>
+         <div id="values" class="valuesdiv">
+            <a id="answer">-</a>   
+         </div>
+         <div title="Currently problems with speedlimit - Check that sign is big enough" id="info">
+            <a>i</a>
+         </div>
+         <div id="download">
+            <a href="http://studi-hse.de/files/BilderAI.zip">Download images</a>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
