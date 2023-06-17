@@ -1,0 +1,10 @@
+'Speedlimit30',		1
+'Speedlimit50',		2
+'Speedlimit70',		3
+'Speedlimit120',	4
+'Speed_Unlimited',	5
+'Stop',			6
+'Vorfahrtsstrasse',	7
+'Einfahrverbot',	8
+'Vorsicht_Fahrrad',	9
+'Vorfahrt_Gewaehren'	10
